@@ -1,4 +1,4 @@
-GOPATH="`pwd`"
+export GOPATH="`pwd`"
 
 GOPATH=`pwd` go get github.com/go-chi/chi
 GOPATH=`pwd` go get github.com/go-chi/render
